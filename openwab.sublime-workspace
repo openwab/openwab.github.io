@@ -1,0 +1,341 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"bac",
+				"background-repeat"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"da",
+				"datas"
+			],
+			[
+				"data",
+				"data_type"
+			],
+			[
+				"pa",
+				"parametres"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"scr",
+				"screenWidth"
+			],
+			[
+				"header",
+				"header-bg"
+			],
+			[
+				"h",
+				"height\t.height()"
+			],
+			[
+				"he",
+				"header-bg"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"tr",
+				"trigger\t.trigger()"
+			],
+			[
+				"add",
+				"addClass\t.addClass()"
+			],
+			[
+				"prev",
+				"preventDefault"
+			],
+			[
+				"al",
+				"alt\tAttr"
+			],
+			[
+				"i",
+				"img\tTag"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"tet",
+				"text-decoration"
+			],
+			[
+				"fade",
+				"fadeIn\t.fadeIn()"
+			],
+			[
+				"mou",
+				"mouseover\t.mouseover()"
+			],
+			[
+				"th",
+				"this\t$(this)"
+			],
+			[
+				"min-",
+				"min-height"
+			],
+			[
+				"t",
+				"title\tAttr"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"m",
+				"meta\tTag"
+			],
+			[
+				"l",
+				"li\tTag"
+			],
+			[
+				"borde",
+				"border-right"
+			],
+			[
+				"co",
+				"content\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "insta",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"prettify",
+				"Preferences: Settings – Syntax Specific"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Steve_Leherpeux/Documents/openwab/openwab",
+		"/C/Users/Steve_Leherpeux/Documents/openwab/openwab/openwab.github.io"
+	],
+	"file_history":
+	[
+		"/C/Users/Steve_Leherpeux/Documents/openwab/openwab/index.html",
+		"/C/Users/Steve_Leherpeux/Documents/openwab/www/css/stylesheet.css",
+		"/C/Users/Steve_Leherpeux/Documents/openwab/www/js/www.js",
+		"/C/Users/Steve_Leherpeux/Documents/openwab/cv/index.html",
+		"/C/Users/Steve_Leherpeux/Documents/openwab/www/cv.html",
+		"/C/Users/Steve_Leherpeux/Documents/openwab/www/index.html",
+		"/C/Users/Steve_Leherpeux/Documents/openwab/www/css/bootstrap.min.css",
+		"/C/Users/Steve_Leherpeux/Documents/openwab/www/css/carousel.css",
+		"/C/Users/Steve_Leherpeux/Documents/openwab/cv/js/cv.js",
+		"/C/Users/Steve_Leherpeux/Documents/openwab/cv/js/ow-scroll.js",
+		"/C/Users/Steve_Leherpeux/Documents/openwab/www/js/ow-slider.js",
+		"/C/Users/Steve_Leherpeux/Documents/openwab/cv/css/styles.css",
+		"/C/Users/Steve_Leherpeux/Documents/openwab/cv/owslider.html",
+		"/C/Users/Steve_Leherpeux/Documents/openwab/cv/js/ow-slider.js",
+		"/C/Users/Steve_Leherpeux/Downloads/Sublime Text Build 3126 x64/Data/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/C/Users/Steve_Leherpeux/Documents/openwab/test/index.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "openwab.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 285.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
