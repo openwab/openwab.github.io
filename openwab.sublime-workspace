@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"co",
+				"container-fluid"
+			],
+			[
 				"li",
 				"link\tTag"
 			],
@@ -146,15 +150,32 @@
 			[
 				"borde",
 				"border-right"
-			],
-			[
-				"co",
-				"content\tTag"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 3749,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "/**\n * openwab styles.css\n * Additional stylesheet boostrap complementary\n */\n \n",
+			"file": "css/styles.css",
+			"file_size": 2,
+			"file_write_time": 131304361683676353,
+			"settings":
+			{
+				"buffer_size": 80,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -197,7 +218,9 @@
 	"expanded_folders":
 	[
 		"/C/Users/Steve_Leherpeux/Documents/openwab/openwab",
-		"/C/Users/Steve_Leherpeux/Documents/openwab/openwab/openwab.github.io"
+		"/C/Users/Steve_Leherpeux/Documents/openwab/openwab/openwab.github.io",
+		"/C/Users/Steve_Leherpeux/Documents/openwab/openwab/openwab.github.io/css/font-awesome-4.7.0/css",
+		"/C/Users/Steve_Leherpeux/Documents/openwab/openwab/openwab.github.io/js"
 	],
 	"file_history":
 	[
@@ -251,14 +274,73 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3749,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3302,
+								3302
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 735.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 80,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								79,
+								79
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 23.0
 	},
 	"input":
 	{
@@ -295,7 +377,7 @@
 	"project": "openwab.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
