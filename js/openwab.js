@@ -4,43 +4,31 @@
  */
 
 $(document).ready(function($) {
-    //Initialise l'affichage des tweets 
-    $('.myTweets').owTweets();
+    //Initialise smooth scroll 
+    $('#navbar').owScroll();
 });
 
+
 /**
- * owTweets - jQuery plugin
+ * owScroll - smooth scroll one page plugin
  */
 (function($) {
-    $.fn.owTweets = function(options) {
+    $.fn.owScroll = function(options) {
         var defaults = {
-            "url": "",
-            "id": '',
-            "nb_tweets": 5,
-            "contener_class": 'my-tweets',
-            "delay": 7
+            "menu_trigger": "owscroll",
+            "show_menu": false,
+            "menu_position": 'left'
         };
         var parametres = $.extend(defaults, options);
 
         return this.each(function() {
-            //Build a query
-            var queryUrl = 'https://api.twitter.com/1.1/statuses/mentions_timeline.json?count=10';
-            console.log('url : ' + queryUrl);
-            $.ajax({
-                    url: queryUrl,
-                    dataType: 'jsonp'
-                })
-                .done(function() {
-                    console.log("success");
-                })
-                .fail(function() {
-                    console.log("error");
-                })
-                .always(function() {
-                    console.log("complete");
-                });
 
+            $('.' + parametres.menu_trigger).click(function(e) {
+                e.preventDefault();
+                var ancre = $(this).attr('href');
+                $('html,body').animate({ scrollTop: $(ancre).offset().top }, 'slow');
 
+            });
 
 
         });

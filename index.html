@@ -21,89 +21,124 @@
 </head>
 
 <body>
-    <div id="main-wrapper" class="container-fluid">
-        <div class="navbar-wrapper">
+    <header>
+        <div id="logo"></div>
+        <nav class="navbar navbar-inverse navbar-static-top">
             <div class="container-fluid">
-                <nav class="navbar"></nav>
-            </div>
-        </div>
-        <!-- START Container #about -->
-        <div id="about" class="container">
-            <h2>A little of me...</h2>
-        </div>
-        <!-- END container -->
-        <div id="contact" class="container-fluid">
-            <div class="container">
-                <h2>Envoyer un message</h2>
-                <form>
-                    <div class="row">
-                        <div class="col-md-8">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="contactFirstName">Prénom</label>
-                                        <input type="text" class="form-control" id="contactFirstName" placeholder="John">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="exampleInputPassword1">Nom</label>
-                                        <input type="text" class="form-control" id="contactName" placeholder="Doe">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <div class="input-group">
-                                    <div class="input-group-addon">@</div>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="required" for="message">Message</label>
-                                <textarea rows="4" cols="40" name="message" id="message" class="form-control" required=""></textarea>
-                            </div>
-                            <div class="form-group text-right">
-                                <div class="col-sm-6">
-                                    <div class="g-recaptcha" data-sitekey="6LfxEhQUAAAAADWgatq5b8WBEbwhpFSbAzzR-G4y"></div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <input class="btn btn-inverse btn-lg" type="submit" value="Envoyer">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">.col-md-4</div>
-                    </div>
-                </form>
-            </div>
-        </div>
-        <hr class="featurette-divider">
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="latest-tweets">
-                            <ul class="myTweets"></ul>
-                        </div>
-                    </div>
-                    <div class="col-md-4 text-center">
-                        <h4>Keep connected ! </h4>
-                        <a href="#Linkedin"><i class="fa fa-linkedin fa-2x"></i></a>
-                        <a href="#Linkedin"><i class="fa fa-twitter fa-2x"></i></a>
-                        <a href="#Linkedin"><i class="fa fa-github fa-2x"></i></a>
-                        <p>&copy; Steve Leherpeux 2017</p>
-                    </div>
-                    <div class="col-md-4">
-                        <blockquote>
-                            <p>Le remède à l'ennui, c'est la curiosité. La curiosité elle, est sans remède.</p>
-                            <footer>Someone famous in
-                                <cite title="Source Title">somwhere</cite>
-                            </footer>
-                        </blockquote>
-                    </div>
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Afficher le menu</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class=""><a href="#home">Home</a></li>
+                        <li class="active"><a href="#book">Book</a></li>
+                        <li class=""><a href="#competences">Compétences</a></li>
+                        <li class=""><a href="#cv">Parcours</a></li>
+                        <li class=""><a href="#contact">Contact</a></li>
+                    </ul>
                 </div>
             </div>
-        </footer>
+        </nav>
+    </header>
+    <!-- START Container #about -->
+    <div id="about" class="container">
+        <h2>Un peu de moi...</h2>
+        <div class="row">
+            <div class="col-md-4">.col-md-4</div>
+            <div class="col-md-8">
+                <h2>Steve Leherpeux</h2>
+                <h3>Creative Web & Graphic Designer</h3>
+                <p>I'm A Professional Front End Developer. My Passion Is Designing Web Pages. I have More Than Five Years Working Experience In This field. whereas multidisciplinary intellectual capital. Distinctively synergize market-driven master and prospective channels. Dramatically drive an expanded array of expertise with modern technology. Completely cultivate standardized manufactured. Continually transform process-centric systems rather than compelling growth strategies. Energistically streamline low-risk high-yield supply chains via scalable intellectual capital.</p>
+            </div>
+        </div>
     </div>
+    <!-- END container -->
+    <!-- START Container #about -->
+    <div id="competences" class="container">
+        <h2>Ce que je sais faire</h2>
+    </div>
+    <!-- END container -->
+    <!-- START Container #about -->
+    <div id="cv" class="container">
+        <h2>Mon parcours</h2>
+    </div>
+    <!-- END container -->
+    <div id="contact" class="container-fluid">
+        <div class="container">
+            <h2>Envoyer un message</h2>
+            <form>
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="contactFirstName">Prénom</label>
+                                    <input type="text" class="form-control" id="contactFirstName" placeholder="John">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1">Nom</label>
+                                    <input type="text" class="form-control" id="contactName" placeholder="Doe">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <div class="input-group-addon">@</div>
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="required" for="message">Message</label>
+                            <textarea rows="4" cols="40" name="message" id="message" class="form-control" required=""></textarea>
+                        </div>
+                        <div class="form-group text-right">
+                            <div class="col-sm-6">
+                                <div class="g-recaptcha" data-sitekey="6LfxEhQUAAAAADWgatq5b8WBEbwhpFSbAzzR-G4y"></div>
+                            </div>
+                            <div class="col-sm-6">
+                                <input class="btn btn-inverse btn-lg" type="submit" value="Envoyer">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">.col-md-4</div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <hr class="featurette-divider">
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="latest-tweets">
+                        <ul class="myTweets"></ul>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h4>Keep connected ! </h4>
+                    <a href="#Linkedin"><i class="fa fa-linkedin fa-2x"></i></a>
+                    <a href="#Linkedin"><i class="fa fa-twitter fa-2x"></i></a>
+                    <a href="#Linkedin"><i class="fa fa-github fa-2x"></i></a>
+                    <p>&copy; Steve Leherpeux 2017</p>
+                </div>
+                <div class="col-md-4">
+                    <blockquote>
+                        <p>Le remède à l'ennui, c'est la curiosité. La curiosité elle, est sans remède.</p>
+                        <footer>Someone famous in
+                            <cite title="Source Title">somwhere</cite>
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </footer>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery-3.1.1.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
