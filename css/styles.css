@@ -1,1 +1,32 @@
+/**
+ * openwab styles.css
+ * Additional stylesheet boostrap complementary
+ */
 
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Roboto+Mono:300,400,500,700|Raleway');
+
+/******************************************************************************/
+
+
+/* Base styles                                                                */
+
+
+/******************************************************************************/
+
+* {
+    outline: none;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 20px;
+    background-repeat: repeat-x;
+    background-position: 0px 0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+::selection {
+    color: #fff;
+    background: #27AE60;
+}
