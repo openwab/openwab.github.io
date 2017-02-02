@@ -15,6 +15,7 @@ $(document).ready(function($) {
     $.fn.owTweets = function(options) {
         var defaults = {
             "url": "",
+            "id": '',
             "nb_tweets": 5,
             "contener_class": 'my-tweets',
             "delay": 7
@@ -23,7 +24,7 @@ $(document).ready(function($) {
 
         return this.each(function() {
             //Build a query
-            var queryUrl = 'https://api.twitter.com/1.1/search/tweets.json?q=%23superbowl&result_type=recent';
+            var queryUrl = 'https://api.twitter.com/1.1/statuses/mentions_timeline.json?count=10';
             console.log('url : ' + queryUrl);
             $.ajax({
                     url: queryUrl,
