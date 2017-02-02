@@ -1,4 +1,10 @@
+/**
+ * Fichier javascript principal
+ * Ce fichier regroupe les iniçtiateurs ainsi que les plugins internes
+ */
+
 $(document).ready(function($) {
+    //Initialise l'affichage des tweets 
     $('.myTweets').owTweets();
 });
 
