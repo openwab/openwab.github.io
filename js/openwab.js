@@ -4,8 +4,12 @@
  */
 
 $(document).ready(function($) {
+    // site preloader -- also uncomment the div in the header and the css style for #preloader
+    $(window).on('load', function() {
+        $('#preloader').fadeOut('slow', function() { $(this).remove(); });
+    });
     //Initialise smooth scroll 
-    $('#navbar').owScroll();
+    $('.owscroll').owScroll();
 });
 
 
