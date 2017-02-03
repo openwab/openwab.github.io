@@ -62,3 +62,27 @@ body > header {
     background-attachment: scroll;
     background-size: cover;
 }
+
+.f-nav {
+    /* To fix main menu container */
+    z-index: 9999;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    border-bottom: : 2px solid #fff;
+    -moz-box-shadow: 0 8px 12px #aaa;
+    -webkit-box-shadow: 0 8px 12px #aaa;
+    box-shadow: 0 8px 12px #555;
+}
+
+#main-menu-container {
+    text-align: center;
+    /* Assuming your main layout is centered */
+}
+
+#main-menu {
+    display: inline-block;
+    width: 1024px;
+    /* Your menu's width */
+}
