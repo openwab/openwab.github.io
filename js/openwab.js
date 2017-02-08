@@ -11,6 +11,11 @@ $(document).ready(function($) {
     //Initialise smooth scroll 
     $('.owscroll').owScroll();
 
+    $('.parallax-contact').parallax({ imageSrc: 'assets/images/contact.jpg' });
+    $('.parallax-skills').parallax({ imageSrc: 'assets/images/php-code.jpg' });
+
+    $('.btn, .info').popover({ trigger: "hover" });
+
     //Manage top bar fixing 
     var nav = $('#navbar');
 
@@ -69,7 +74,8 @@ $(document).ready(function($) {
             $('.' + parametres.menu_trigger).click(function(e) {
                 e.preventDefault();
                 var ancre = $(this).attr('href');
-                $('html,body').animate({ scrollTop: $(ancre).offset().top }, 'slow');
+                var position = $(ancre).offset().top;
+                $('html,body').animate({ scrollTop: position - 40 }, 'slow');
 
             });
 

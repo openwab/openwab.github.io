@@ -28,11 +28,11 @@
         </div>
     </div>
     <!-- / END PRELOADER -->
-    <header>
+    <header id="home">
         <div id="logo"></div>
         <nav id="navbar" class="navbar navbar-inverse navbar-static-top">
             <div class="container-fluid">
-                <div id="home" class="navbar-header">
+                <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                         <span class="sr-only">Afficher le menu</span>
                         <span class="icon-bar"></span>
@@ -68,28 +68,96 @@
     <!-- END container -->
     <hr class="featurette-divider">
     <!-- START Container #about -->
-    <div id="competences" class="container">
-        <h2>Ce que je sais faire</h2>
-        <div id="lipsum">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean rutrum mauris nisi, vitae lobortis odio fringilla vel. Aenean euismod nunc in ullamcorper auctor. Donec sed varius ligula. Integer eleifend nunc sed varius ornare. Mauris purus erat, blandit eu ex id, aliquam maximus tortor. Morbi commodo ornare libero, eget scelerisque justo condimentum ut. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam eget mi justo. Curabitur nulla ex, mattis fringilla auctor vitae, pulvinar nec dolor. Cras condimentum nibh odio, a malesuada nibh laoreet eget. Cras consequat auctor libero, quis sodales augue vulputate ut.
-            </p>
-            <p>
-                Quisque et risus tempus, eleifend odio ac, fermentum erat. Curabitur placerat finibus imperdiet. In sit amet imperdiet lectus. Praesent mattis odio id lacinia condimentum. Curabitur vitae arcu ultrices, congue ex nec, ornare felis. Fusce accumsan pellentesque nunc. Maecenas eget scelerisque purus, quis laoreet massa. Aenean aliquam luctus elementum. Sed sed lacus consectetur, scelerisque felis euismod, gravida est. Suspendisse non sodales tellus. Suspendisse nibh erat, pellentesque sit amet tempus vel, posuere id dolor. Phasellus at justo quis magna porttitor luctus. Nam eu euismod nisi. Nunc tincidunt feugiat justo, at mollis felis ullamcorper ac. Proin vel turpis nulla. Suspendisse potenti.
-            </p>
-            <p>
-                Suspendisse lectus lectus, venenatis in molestie in, varius at mauris. Nullam pretium ipsum neque, eu laoreet tortor pellentesque in. Maecenas mi massa, pulvinar ut vehicula congue, suscipit sed libero. Vestibulum tellus libero, vehicula quis erat ac, vehicula maximus leo. Donec semper vel lectus id feugiat. Curabitur non viverra nisl. Aliquam at nunc vel mi mattis finibus quis ut dolor. Proin quis enim volutpat, pharetra justo et, semper est. Maecenas auctor ac orci non dapibus. Praesent eleifend condimentum nibh, sit amet egestas quam luctus a. Aenean vitae libero sit amet mi bibendum lacinia. Phasellus venenatis, tellus nec vulputate mattis, elit quam aliquam sem, eu vestibulum neque magna sed mauris. In at ultrices libero, sed viverra mi. Quisque et rutrum justo, non volutpat dolor. Proin convallis purus a ligula ullamcorper, non volutpat mi congue. Pellentesque at sapien eget augue posuere convallis.
-            </p>
-            <p>
-                Praesent non euismod velit. Praesent nec egestas est. Sed porttitor dui nisi, id vulputate augue facilisis ac. Donec dignissim purus sit amet laoreet faucibus. Aenean ac diam quam. Suspendisse ullamcorper sem risus, eget sagittis dolor gravida ac. In venenatis quis nunc in consequat. Vestibulum tristique est vestibulum, egestas risus id, rhoncus ante. Sed eleifend massa nec tristique tempor. Aenean in libero eget purus tincidunt blandit eu vitae leo. Donec risus felis, sagittis ut nulla scelerisque, iaculis varius est.
-            </p>
-            <p>
-                Aliquam a dictum ipsum, quis scelerisque nunc. Aenean id libero mollis, molestie dui vel, cursus tellus. Nam non dapibus neque. Vivamus consectetur dictum magna, vel posuere lacus gravida sed. Nam varius nulla ac vulputate pretium. Etiam mi sem, tincidunt sed felis eget, mollis pulvinar urna. Nulla sit amet malesuada erat, vel pharetra erat.
-            </p>
+    <div class="container-fluid parallax-skills">
+        <div id="competences" class="container">
+            <h2>Ce que je sais faire</h2>
+            <div class="bs-example" data-example-id="thumbnails-with-custom-content">
+                <!-- START ROW -->
+                <div class="row">
+                    <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail"> <img alt="100%x200" data-src="holder.js/100%x200" style="height: 200px; width: 100%; display: block;" src="assets/images/thumb_web-design.jpg" data-holder-rendered="true">
+                            <div class="caption text-center">
+                                <i class="fa fa-html5 fa-3x" aria-hidden="true"></i>
+                                <h3>Web Design</h3>
+                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail"> <img alt="100%x200" data-src="holder.js/100%x200" style="height: 200px; width: 100%; display: block;" src="assets/images/thumb_web-code.jpg" data-holder-rendered="true">
+                            <div class="caption text-center">
+                                <i class="fa fa-code fa-3x" aria-hidden="true"></i>
+                                <h3>Web Develop</h3>
+                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail"> <img alt="100%x200" data-src="holder.js/100%x200" style="height: 200px; width: 100%; display: block;" src="assets/images/thumb_web-responsive.jpg" data-holder-rendered="true">
+                            <div class="caption text-center">
+                                <i class="fa fa-check-circle-o fa-3x" aria-hidden="true"></i>
+                                <h3>100% Responsive</h3>
+                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END ROW -->
+                <!-- START ROW -->
+                <div class="row">
+                    <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail"> <img alt="100%x200" data-src="holder.js/100%x200" style="height: 200px; width: 242px; display: block;" src="assets/images/thumb_web-creativity-2.jpg" data-holder-rendered="true">
+                            <div class="caption text-center">
+                                <i class="fa fa-lightbulb-o fa-3x" aria-hidden="true"></i>
+                                <h3>Créativité</h3>
+                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail"> <img alt="100%x200" data-src="holder.js/100%x200" style="height: 200px; width: 242px; display: block;" src="assets/images/thumb_wordpress.jpg" data-holder-rendered="true">
+                            <div class="caption text-center">
+                                <i class="fa fa-wordpress fa-3x" aria-hidden="true"></i>
+                                <h3>Wordpress</h3>
+                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail"> <img alt="100%x200" data-src="holder.js/100%x200" style="height: 200px; width: 100%; display: block;" src="assets/images/thumb_web-curiosity.png" data-holder-rendered="true">
+                            <div class="caption text-center">
+                                <i class="fa fa-search fa-3x" aria-hidden="true"></i>
+                                <h3>Curiosité</h3>
+                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END ROW -->
+            </div>
         </div>
     </div>
-    <!-- END container -->
-    <hr class="featurette-divider">
+    <!-- END container ABOUT-->
+    <div class="container-fluid announcement-bar">
+        <div id="competences" class="container">
+            <div>
+                <h3 class="text-center">Langages & Frameworks<span class="glyphicon glyphicon-info-sign ow-glyphicon info
+" aria-hidden="true" data-placement="top" data-toggle="popover" data-trigger="focus" title="Information utile !" data-content="Passez votre souris par dessus les images ci-dessous pour en savoir plus :)"></span></h3>
+            </div>
+            <div class="row text-center">
+                <a tabindex="0" class="btn btn-small" role="button" data-placement="top" data-toggle="popover" title="HTML 5" data-content="Développeur Front-end, accessibilité et respect des préconisations du W3. Prise en compte des différentes plateformes et navigateurs"><img class="languages" src="assets/images/html5.png"></a>
+                <a tabindex="0" class="btn btn-small" role="button" data-placement="bottom" data-toggle="popover" data-trigger="focus" title="CSS 3" data-content="Mise en page à l'aide des selecteurs, box model, 2D/3D transformation, animations"><img class="languages" src="assets/images/css3.png"></a>
+                <a tabindex="0" class="btn btn-small" role="button" data-placement="top" data-toggle="popover" data-trigger="focus" title="JavaScript" data-content="Connaissances de base qui me permettent d'exploiter différents Framework Javascrit"><img class="languages" src="assets/images/javascript.png"></a>
+                <a tabindex="0" class="btn btn-small" role="button" data-placement="bottom" data-toggle="popover" data-trigger="focus" title="Angular" data-content="Connaissance basic en cours d'apprentissage...."><img class="languages" src="assets/images/angular.png"></a>
+                <a tabindex="0" class="btn btn-small" role="button" data-placement="top" data-toggle="popover" data-trigger="focus" title="jQuery" data-content="Connaissances avancées sur le Framework jQuery et jQuery-ui. Intégration et développement de plugin"><img class="languages" src="assets/images/jquery.png"></a>
+                <a tabindex="0" class="btn btn-small" role="button" data-placement="bottom" data-toggle="popover" data-trigger="focus" title="PHP" data-content="Le premier langage de programmation Web sur lequel j'ai fait mes armes ! Je l'utilise essentiellement à travers Wordpress mais j'ai également des connaissances au niveau du code pur, fonctions et objet ainsi que l'utilisation avec des BDD"><img class="languages" src="assets/images/php.png"></a>
+                <a tabindex="0" class="btn btn-small" role="button" data-placement="top" data-toggle="popover" data-trigger="focus" title="Wordpress" data-content="Développement Front-End et Back-End. Création de modules et plug-in, développement d'interfaces que ce soit pour des sites statiques, blogs ou sites marchands"><img class="languages" src="assets/images/wordpress.png"></a>
+                <a tabindex="0" class="btn btn-small" role="button" data-placement="bottom" data-toggle="popover" data-trigger="focus" title="Bootstrap" data-content="J'utilise ce Framework depuis quelques temps maintenant qui rend les développement fluides et rapides :)"><img class="languages" src="assets/images/bootstrap.png"></a>
+                <a tabindex="0" class="btn btn-small" role="button" data-placement="top" data-toggle="popover" data-trigger="focus" title="Github" data-content="Découvert récement, j'utilise cet outil régulièrement"><img class="languages" src="assets/images/github.png"></a>
+            </div>
+        </div>
+    </div>
+    </div>
     <!-- START Container #about -->
     <div id="cv" class="container">
         <h2>Mon parcours</h2>
@@ -113,11 +181,10 @@
     </div>
     <hr class="featurette-divider">
     <!-- END container -->
-    <div id="contact" class="container-fluid contact-bg-image
-">
-        <div class="container">
+    <div id="contact" class="container-fluid parallax-contact">
+        <div class="container contact">
             <h2>Envoyer un message</h2>
-            <form id="contact">
+            <form id="contact-form">
                 <div class="row">
                     <div class="col-md-8">
                         <div class="row">
@@ -208,6 +275,8 @@
     </footer>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery-3.1.1.min.js"></script>
+    <!-- Include Parallax plugin -->
+    <script type="text/javascript" src="js/parallax.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <!-- main js file -->

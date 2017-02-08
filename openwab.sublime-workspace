@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"li",
+				"li\tTag"
+			],
+			[
+				"ima",
+				"images"
+			],
+			[
+				"text",
+				"text-center"
+			],
+			[
+				"conta",
+				"container-fluid"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"bac",
+				"background-repeat"
+			],
+			[
 				"nav",
 				"navbar"
 			],
@@ -24,20 +48,8 @@
 				"container-fluid"
 			],
 			[
-				"li",
-				"link\tTag"
-			],
-			[
 				"padd",
 				"padding"
-			],
-			[
-				"bac",
-				"background-repeat"
-			],
-			[
-				"back",
-				"background-image"
 			],
 			[
 				"da",
@@ -70,10 +82,6 @@
 			[
 				"he",
 				"header-bg"
-			],
-			[
-				"text",
-				"text-decoration"
 			],
 			[
 				"me",
@@ -175,7 +183,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 15998,
+				"buffer_size": 20224,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -184,7 +192,7 @@
 			"file": "js/openwab.js",
 			"settings":
 			{
-				"buffer_size": 2231,
+				"buffer_size": 2464,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -202,16 +210,7 @@
 			"file": "css/styles.css",
 			"settings":
 			{
-				"buffer_size": 1717,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/Steve_Leherpeux/Documents/openwab/www/js/www.js",
-			"settings":
-			{
-				"buffer_size": 1973,
+				"buffer_size": 3034,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -258,16 +257,19 @@
 	"expanded_folders":
 	[
 		"/C/Users/Steve_Leherpeux/Documents/openwab/openwab",
-		"/C/Users/Steve_Leherpeux/Documents/openwab/openwab/openwab.github.io"
+		"/C/Users/Steve_Leherpeux/Documents/openwab/openwab/openwab.github.io",
+		"/C/Users/Steve_Leherpeux/Documents/openwab/openwab/openwab.github.io/assets",
+		"/C/Users/Steve_Leherpeux/Documents/openwab/openwab/openwab.github.io/assets/images",
+		"/C/Users/Steve_Leherpeux/Documents/openwab/openwab/openwab.github.io/js"
 	],
 	"file_history":
 	[
+		"/C/Users/Steve_Leherpeux/Documents/openwab/www/css/stylesheet.css",
+		"/C/Users/Steve_Leherpeux/Documents/openwab/www/js/www.js",
 		"/C/Users/Steve_Leherpeux/Documents/openwab/openwab/openwab.github.io/test.php",
 		"/C/Users/Steve_Leherpeux/Documents/openwab/cv/css/styles.css",
 		"/C/Users/Steve_Leherpeux/Documents/openwab/openwab/openwab.github.io/css/styles.css",
-		"/C/Users/Steve_Leherpeux/Documents/openwab/www/css/stylesheet.css",
 		"/C/Users/Steve_Leherpeux/Documents/openwab/openwab/index.html",
-		"/C/Users/Steve_Leherpeux/Documents/openwab/www/js/www.js",
 		"/C/Users/Steve_Leherpeux/Documents/openwab/cv/index.html",
 		"/C/Users/Steve_Leherpeux/Documents/openwab/www/cv.html",
 		"/C/Users/Steve_Leherpeux/Documents/openwab/www/index.html",
@@ -314,7 +316,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -323,15 +325,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 15998,
+						"buffer_size": 20224,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2765,
-								2765
+								11572,
+								11572
 							]
 						],
 						"settings":
@@ -341,10 +343,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 808.0,
+						"translation.y": 2288.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -353,15 +355,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2231,
+						"buffer_size": 2464,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								503,
-								503
+								609,
+								609
 							]
 						],
 						"settings":
@@ -369,10 +371,10 @@
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 146.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -402,7 +404,7 @@
 						"translation.y": 195.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -411,15 +413,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1717,
+						"buffer_size": 3034,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1717,
-								1717
+								2569,
+								2569
 							]
 						],
 						"settings":
@@ -429,40 +431,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 945.0,
+						"translation.y": 1793.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/C/Users/Steve_Leherpeux/Documents/openwab/www/js/www.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1973,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1393,
-								1972
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 585.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
