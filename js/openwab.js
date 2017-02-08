@@ -11,7 +11,7 @@ $(document).ready(function($) {
     //Initialise smooth scroll 
     $('.owscroll').owScroll();
 
-    $('.parallax-contact').parallax({ imageSrc: 'assets/images/contact.jpg' });
+    $('.parallax-contact').parallax({ imageSrc: 'assets/images/bg-contact.jpg' });
     $('.parallax-skills').parallax({ imageSrc: 'assets/images/php-code.jpg' });
 
     $('.btn, .info').popover({ trigger: "hover" });
