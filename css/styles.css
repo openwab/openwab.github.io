@@ -64,6 +64,86 @@ body > header {
 }
 
 
+/** MDI *****/
+
+.mdi::before {
+    font-size: 24px;
+    line-height: 14px;
+}
+
+.btn .mdi::before {
+    position: relative;
+    top: 4px;
+}
+
+.btn-xs .mdi::before {
+    font-size: 18px;
+    top: 3px;
+}
+
+.btn-sm .mdi::before {
+    font-size: 18px;
+    top: 3px;
+}
+
+.dropdown-menu .mdi {
+    width: 18px;
+}
+
+.dropdown-menu .mdi::before {
+    position: relative;
+    top: 4px;
+    left: -8px;
+}
+
+.nav .mdi::before {
+    position: relative;
+    top: 4px;
+}
+
+.navbar .navbar-toggle .mdi::before {
+    position: relative;
+    top: 4px;
+    color: #FFF;
+}
+
+.breadcrumb .mdi::before {
+    position: relative;
+    top: 4px;
+}
+
+.breadcrumb a:hover {
+    text-decoration: none;
+}
+
+.breadcrumb a:hover span {
+    text-decoration: underline;
+}
+
+.alert .mdi::before {
+    position: relative;
+    top: 4px;
+    margin-right: 2px;
+}
+
+.input-group-addon .mdi::before {
+    position: relative;
+    top: 3px;
+}
+
+.navbar-brand .mdi::before {
+    position: relative;
+    top: 2px;
+    margin-right: 2px;
+}
+
+.list-group-item .mdi::before {
+    position: relative;
+    top: 3px;
+    left: -3px
+}
+
+
 /** PRELOADER *****/
 
 div#preloader {
@@ -125,6 +205,55 @@ div#preloader {
     background-color: rgba(255, 255, 255, 0.85);
 }
 
+.bt-scroll-top {
+    opacity: 1;
+    -webkit-animation: fadeInRight 1s 1 cubic-bezier(0.77, 0, 0.175, 1);
+    -moz-animation: fadeInRight 1s 1 cubic-bezier(0.77, 0, 0.175, 1);
+    -o-animation: fadeInRight 1s 1 cubic-bezier(0.77, 0, 0.175, 1);
+    animation: fadeInRight 1s 1 cubic-bezier(0.77, 0, 0.175, 1);
+    display: none;
+    position: fixed;
+    z-index: 99999;
+    right: 0;
+    bottom: 125px;
+    padding: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-left-radius: 5px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.4);
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.bt-scroll-top-icon {
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "ETmodules";
+    font-size: 96px;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1;
+    text-transform: none;
+    content: attr(data-icon);
+    speak: none;
+}
+
+.bt-scroll-top:hover {
+    background-color: #fff;
+    color: #ccc;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+
 .carousel {
     width: 468px;
     margin: auto;
@@ -168,5 +297,297 @@ div#preloader {
 
 .btn:hover {
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.24);
-    border: ;
+}
+
+#interest .btn {
+    border: 1px solid #fff;
+    margin: 1em;
+}
+
+#interest .btn:hover {
+    color: #b30000;
+}
+
+.ow-tooltip::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient( circle farthest-side at 0 0, rgba(255, 255, 255, 0) 85%, rgba(255, 255, 255, 0) 90%, rgba(255, 255, 255, .8) 98%, rgba(255, 255, 255, 0) 100%) no-repeat;
+    background-position: -140px 0;
+}
+
+.ow-tooltip:hover::after,
+.ow-tooltip:focus::after {
+    transition: background-position 1s;
+    background-position: 60px 0;
+}
+
+.material-icons {
+    font-size: 48px;
+    line-height: 1.5;
+}
+
+
+/**
+ * TIMELINE 
+ */
+
+.timeline-box-inner {
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+
+.timeline {
+    position: relative;
+}
+
+.timeline .timeline-bar {
+    content: '';
+    width: 4px;
+    opacity: 0.2;
+    margin-left: -2px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    height: 100%;
+    background-color: #b30000;
+}
+
+.timeline .timeline-inner {
+    position: relative;
+}
+
+.timeline-box {
+    width: 50%;
+    color: #757575;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.timeline-box:last-child {
+    margin-bottom: 0;
+}
+
+.timeline-box a {
+    opacity: 1;
+    color: inherit;
+    -webkit-transition: opacity 0.15s linear;
+    -moz-transition: opacity 0.15s linear;
+    transition: opacity 0.15s linear;
+}
+
+.timeline-box a:hover {
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+.timeline-box a.img:hover {
+    opacity: 1;
+}
+
+.timeline-box a,
+.timeline-box img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.timeline-box h3 a,
+.timeline-box h4 a {
+    color: inherit;
+}
+
+.timeline-box h3 {
+    color: #414141;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.1;
+    text-align: center;
+    margin: 15px 0 0 0;
+}
+
+.timeline-box h4 {
+    color: #878787;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.1;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 15px 0 0 0;
+}
+
+.timeline-box h3 {
+    font-size: 13px;
+}
+
+.timeline-box .img {
+    margin-top: 20px;
+}
+
+.timeline-box .img + h4 {
+    margin-top: 10px;
+}
+
+.timeline-box .date {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+}
+
+.timeline-box .timeline-head {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.timeline-head img.logo {
+    width: 120px;
+    height: auto;
+}
+
+.timeline-box-compact .date,
+.timeline-box-compact h3,
+.timeline-box-compact h4 {
+    text-align: left;
+}
+
+.timeline-box-compact .date span {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1;
+    display: inline-block;
+    position: relative;
+    padding: 5px 8px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.timeline-box-compact .date span:before {
+    content: '';
+    width: 0;
+    height: 0;
+    top: 100%;
+    left: 5px;
+    display: block;
+    position: absolute;
+    border-style: solid;
+    border-width: 0 0 8px 8px;
+    border-color: transparent;
+}
+
+.timeline-box-inner {
+    padding: 20px 5%;
+    position: relative;
+    border-width: 5px 0 0 0;
+    border-style: solid;
+    border-color: #b30000;
+}
+
+.timeline-box-left .dot,
+.timeline-box-right .dot {
+    top: 80px;
+    width: 8px;
+    height: 8px;
+    display: block;
+    position: absolute;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #b30000;
+}
+
+.timeline-box-left .arrow,
+.timeline-box-right .arrow {
+    top: 60px;
+    width: 12px;
+    height: 41px;
+    display: block;
+    position: absolute;
+    background-image: url(img/arrows.png);
+    background-repeat: no-repeat;
+}
+
+.timeline-box-left .arrow:before,
+.timeline-box-right .arrow:before {
+    width: 0;
+    height: 0;
+    content: '';
+    display: block;
+}
+
+.timeline-box-left {
+    float: left;
+    clear: left;
+}
+
+.timeline-box-left .timeline-box-inner {
+    margin-right: 35px;
+}
+
+.timeline-box-left .timeline-box-inner .arrow {
+    right: -12px;
+    background-position: -18px 0;
+}
+
+.timeline-box-left .timeline-box-inner .arrow:before {
+    margin-right: 2px;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 10px solid #fff;
+}
+
+.timeline-box-left .dot {
+    right: 0px;
+    margin-right: -4px;
+}
+
+.timeline-box-right {
+    float: right;
+    clear: right;
+}
+
+.timeline-box-right .timeline-box-inner {
+    margin-left: 35px;
+}
+
+.timeline-box-right .timeline-box-inner .arrow {
+    left: -12px;
+    background-position: 0 0;
+}
+
+.timeline-box-right .timeline-box-inner .arrow:before {
+    margin-left: 2px;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 10px solid #fff;
+}
+
+.timeline-box-right .dot {
+    left: 0px;
+    margin-left: -4px;
+}
+
+@media (max-width: 600px) {
+    .timeline-box {
+        width: 100%;
+        float: none;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .timeline-box .timeline-box-inner {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .timeline-box .timeline-box-inner .arrow {
+        display: none;
+    }
+    .timeline-box .dot {
+        display: none;
+    }
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -9,8 +9,10 @@
     <title>CV Steve Leherpeux</title>
     <!-- Bootstrap -->
     <link type="text/css" href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -21,13 +23,17 @@
 </head>
 
 <body>
-    <!-- START PRELOADER -->
+    <!-- START #preloader -->
     <div id="preloader">
         <div class="status">
             <div class="status-mes"></div>
         </div>
     </div>
-    <!-- / END PRELOADER -->
+    <!-- END #preloader -->
+    <!-- START .bt-scroll-top -->
+    <span class="bt-scroll-top"><i class="fa fa-angle-up"></i></span>
+    <!-- / END .bt-scroll-top -->
+    <!-- START header#home -->
     <header id="home">
         <div id="logo"></div>
         <nav id="navbar" class="navbar navbar-inverse navbar-static-top">
@@ -52,7 +58,8 @@
             </div>
         </nav>
     </header>
-    <!-- START Container #about -->
+    <!-- END header#home -->
+    <!-- START .container #about -->
     <div id="about" class="container">
         <h2>Un peu de moi...</h2>
         <div class="row">
@@ -65,10 +72,25 @@
             </div>
         </div>
     </div>
-    <!-- END container -->
+    <!-- END .container #about-->
     <hr class="featurette-divider">
-    <!-- START Container #about -->
+    <!-- START .container-fluid .announcement-bar-->
+    <div class="container-fluid announcement-bar">
+        <div id="interest" class="container text-center">
+            <h3 class="text-center">Off Work ! </h3>
+            <h4>Travailleur mais pas que... </h4>
+            <span class="btn ow-tooltip" title="Je cours sur la route"><i class="material-icons">directions_run</i></span>
+            <span class="btn ow-tooltip" title="Je cours en montagne"><i class="material-icons">terrain</i></span>
+            <span class="btn ow-tooltip" title="Cinéma"><i class="material-icons">local_movies</i></span>
+            <span class="btn ow-tooltip" title="Au fourneau et à table"><i class="material-icons">restaurant</i></span>
+            <span class="btn ow-tooltip" title="Code is beautiful"><i class="material-icons">code</i></span>
+            <!-- bell -->
+        </div>
+    </div>
+    <!-- END .container-fluid .announcement-bar-->
+    <!-- START .container-fluid .parallax-skills -->
     <div class="container-fluid parallax-skills">
+        <!-- START .container #competences -->
         <div id="competences" class="container">
             <h2>Ce que je sais faire</h2>
             <div class="bs-example" data-example-id="thumbnails-with-custom-content">
@@ -137,50 +159,139 @@
             </div>
         </div>
     </div>
-    <!-- END container ABOUT-->
+    <!-- END .container-fluid .parallax-skills -->
+    <!-- START .container-fluid .announcement-bar -->
     <div class="container-fluid announcement-bar">
-        <div id="competences" class="container">
-            <div>
-                <h3 class="text-center">Langages & Frameworks<span class="glyphicon glyphicon-info-sign ow-glyphicon info
+        <!-- START #competences-dev .container -->
+        <div id="competences-dev" class="container">
+            <!-- START H3 -->
+            <h3 class="text-center">Langages & Frameworks<span class="glyphicon glyphicon-info-sign ow-glyphicon info
 " aria-hidden="true" data-placement="top" data-toggle="popover" data-trigger="focus" title="Information utile !" data-content="Passez votre souris par dessus les images ci-dessous pour en savoir plus :)"></span></h3>
-            </div>
+            <!-- START .row -->
             <div class="row text-center">
-                <a tabindex="0" class="btn btn-small" role="button" data-placement="top" data-toggle="popover" title="HTML 5" data-content="Développeur Front-end, accessibilité et respect des préconisations du W3. Prise en compte des différentes plateformes et navigateurs"><img class="languages" src="assets/images/html5.png"></a>
-                <a tabindex="0" class="btn btn-small" role="button" data-placement="bottom" data-toggle="popover" data-trigger="focus" title="CSS 3" data-content="Mise en page à l'aide des selecteurs, box model, 2D/3D transformation, animations"><img class="languages" src="assets/images/css3.png"></a>
-                <a tabindex="0" class="btn btn-small" role="button" data-placement="top" data-toggle="popover" data-trigger="focus" title="JavaScript" data-content="Connaissances de base qui me permettent d'exploiter différents Framework Javascrit"><img class="languages" src="assets/images/javascript.png"></a>
-                <a tabindex="0" class="btn btn-small" role="button" data-placement="bottom" data-toggle="popover" data-trigger="focus" title="Angular" data-content="Connaissance basic en cours d'apprentissage...."><img class="languages" src="assets/images/angular.png"></a>
-                <a tabindex="0" class="btn btn-small" role="button" data-placement="top" data-toggle="popover" data-trigger="focus" title="jQuery" data-content="Connaissances avancées sur le Framework jQuery et jQuery-ui. Intégration et développement de plugin"><img class="languages" src="assets/images/jquery.png"></a>
-                <a tabindex="0" class="btn btn-small" role="button" data-placement="bottom" data-toggle="popover" data-trigger="focus" title="PHP" data-content="Le premier langage de programmation Web sur lequel j'ai fait mes armes ! Je l'utilise essentiellement à travers Wordpress mais j'ai également des connaissances au niveau du code pur, fonctions et objet ainsi que l'utilisation avec des BDD"><img class="languages" src="assets/images/php.png"></a>
-                <a tabindex="0" class="btn btn-small" role="button" data-placement="top" data-toggle="popover" data-trigger="focus" title="Wordpress" data-content="Développement Front-End et Back-End. Création de modules et plug-in, développement d'interfaces que ce soit pour des sites statiques, blogs ou sites marchands"><img class="languages" src="assets/images/wordpress.png"></a>
-                <a tabindex="0" class="btn btn-small" role="button" data-placement="bottom" data-toggle="popover" data-trigger="focus" title="Bootstrap" data-content="J'utilise ce Framework depuis quelques temps maintenant qui rend les développement fluides et rapides :)"><img class="languages" src="assets/images/bootstrap.png"></a>
-                <a tabindex="0" class="btn btn-small" role="button" data-placement="top" data-toggle="popover" data-trigger="focus" title="Github" data-content="Découvert récement, j'utilise cet outil régulièrement"><img class="languages" src="assets/images/github.png"></a>
+                <a tabindex="0" class="btn btn-small ow-btn" role="button" data-placement="top" data-toggle="popover" title="HTML 5" data-content="Développeur Front-end, accessibilité et respect des préconisations du W3. Prise en compte des différentes plateformes et navigateurs"><img class="languages" src="assets/images/html5.png" Alt="Logo HTML5"></a>
+                <a tabindex="0" class="btn btn-small ow-btn" role="button" data-placement="bottom" data-toggle="popover" data-trigger="focus" title="CSS 3" data-content="Mise en page à l'aide des selecteurs, box model, 2D/3D transformation, animations"><img class="languages" alt="Logo CSS3" src="assets/images/css3.png"></a>
+                <a tabindex="0" class="btn btn-small ow-btn" role="button" data-placement="top" data-toggle="popover" data-trigger="focus" title="JavaScript" data-content="Connaissances de base qui me permettent d'exploiter différents Framework Javascrit"><img class="languages" alt="Logo Javascript" src="assets/images/javascript.png"></a>
+                <a tabindex="0" class="btn btn-small ow-btn" role="button" data-placement="bottom" data-toggle="popover" data-trigger="focus" title="Angular" data-content="Connaissance basic en cours d'apprentissage...."><img class="languages" alt="Logo Angular.js" src="assets/images/angular.png"></a>
+                <a tabindex="0" class="btn btn-small ow-btn" role="button" data-placement="top" data-toggle="popover" data-trigger="focus" title="jQuery" data-content="Connaissances avancées sur le Framework jQuery et jQuery-ui. Intégration et développement de plugin"><img class="languages" Alt="Logo jQuery" src="assets/images/jquery.png"></a>
+                <a tabindex="0" class="btn btn-small ow-btn" role="button" data-placement="bottom" data-toggle="popover" data-trigger="focus" title="PHP" data-content="Le premier langage de programmation Web sur lequel j'ai fait mes armes ! Je l'utilise essentiellement à travers Wordpress mais j'ai également des connaissances au niveau du code pur, fonctions et objet ainsi que l'utilisation avec des BDD"><img class="languages" Alt="Logo PHP" src="assets/images/php.png"></a>
+                <a tabindex="0" class="btn btn-small ow-btn" role="button" data-placement="top" data-toggle="popover" data-trigger="focus" title="Wordpress" data-content="Développement Front-End et Back-End. Création de modules et plug-in, développement d'interfaces que ce soit pour des sites statiques, blogs ou sites marchands"><img class="languages" alt="Logo Wordpress" src="assets/images/wordpress.png"></a>
+                <a tabindex="0" class="btn btn-small ow-btn" role="button" data-placement="bottom" data-toggle="popover" data-trigger="focus" title="Bootstrap" data-content="J'utilise ce Framework depuis quelques temps maintenant qui rend les développement fluides et rapides :)"><img class="languages" alt="Logo Bootstrap" src="assets/images/bootstrap.png"></a>
+                <a tabindex="0" class="btn btn-small ow-btn" role="button" data-placement="top" data-toggle="popover" data-trigger="focus" title="Github" data-content="Découvert récement, j'utilise cet outil régulièrement"><img class="languages" alt="Logo Github" src="assets/images/github.png"></a>
             </div>
+            <!-- END .row -->
+            <!-- END H3 -->
         </div>
+        <!-- END #competences-dev .container -->
     </div>
-    </div>
-    <!-- START Container #about -->
+    <!-- END .container-fluid .announcement-bar -->
+    <!-- START Container #cv -->
     <div id="cv" class="container">
         <h2>Mon parcours</h2>
-        <div id="lipsum">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean rutrum mauris nisi, vitae lobortis odio fringilla vel. Aenean euismod nunc in ullamcorper auctor. Donec sed varius ligula. Integer eleifend nunc sed varius ornare. Mauris purus erat, blandit eu ex id, aliquam maximus tortor. Morbi commodo ornare libero, eget scelerisque justo condimentum ut. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam eget mi justo. Curabitur nulla ex, mattis fringilla auctor vitae, pulvinar nec dolor. Cras condimentum nibh odio, a malesuada nibh laoreet eget. Cras consequat auctor libero, quis sodales augue vulputate ut.
-            </p>
-            <p>
-                Quisque et risus tempus, eleifend odio ac, fermentum erat. Curabitur placerat finibus imperdiet. In sit amet imperdiet lectus. Praesent mattis odio id lacinia condimentum. Curabitur vitae arcu ultrices, congue ex nec, ornare felis. Fusce accumsan pellentesque nunc. Maecenas eget scelerisque purus, quis laoreet massa. Aenean aliquam luctus elementum. Sed sed lacus consectetur, scelerisque felis euismod, gravida est. Suspendisse non sodales tellus. Suspendisse nibh erat, pellentesque sit amet tempus vel, posuere id dolor. Phasellus at justo quis magna porttitor luctus. Nam eu euismod nisi. Nunc tincidunt feugiat justo, at mollis felis ullamcorper ac. Proin vel turpis nulla. Suspendisse potenti.
-            </p>
-            <p>
-                Suspendisse lectus lectus, venenatis in molestie in, varius at mauris. Nullam pretium ipsum neque, eu laoreet tortor pellentesque in. Maecenas mi massa, pulvinar ut vehicula congue, suscipit sed libero. Vestibulum tellus libero, vehicula quis erat ac, vehicula maximus leo. Donec semper vel lectus id feugiat. Curabitur non viverra nisl. Aliquam at nunc vel mi mattis finibus quis ut dolor. Proin quis enim volutpat, pharetra justo et, semper est. Maecenas auctor ac orci non dapibus. Praesent eleifend condimentum nibh, sit amet egestas quam luctus a. Aenean vitae libero sit amet mi bibendum lacinia. Phasellus venenatis, tellus nec vulputate mattis, elit quam aliquam sem, eu vestibulum neque magna sed mauris. In at ultrices libero, sed viverra mi. Quisque et rutrum justo, non volutpat dolor. Proin convallis purus a ligula ullamcorper, non volutpat mi congue. Pellentesque at sapien eget augue posuere convallis.
-            </p>
-            <p>
-                Praesent non euismod velit. Praesent nec egestas est. Sed porttitor dui nisi, id vulputate augue facilisis ac. Donec dignissim purus sit amet laoreet faucibus. Aenean ac diam quam. Suspendisse ullamcorper sem risus, eget sagittis dolor gravida ac. In venenatis quis nunc in consequat. Vestibulum tristique est vestibulum, egestas risus id, rhoncus ante. Sed eleifend massa nec tristique tempor. Aenean in libero eget purus tincidunt blandit eu vitae leo. Donec risus felis, sagittis ut nulla scelerisque, iaculis varius est.
-            </p>
-            <p>
-                Aliquam a dictum ipsum, quis scelerisque nunc. Aenean id libero mollis, molestie dui vel, cursus tellus. Nam non dapibus neque. Vivamus consectetur dictum magna, vel posuere lacus gravida sed. Nam varius nulla ac vulputate pretium. Etiam mi sem, tincidunt sed felis eget, mollis pulvinar urna. Nulla sit amet malesuada erat, vel pharetra erat.
-            </p>
+        <h3>Parcours Professionnel</h3>
+        <div id="works" class="timeline">
+            <div class="timeline-bar"></div>
+            <div class="timeline-inner clearfix">
+                <div class="timeline-box timeline-box-left">
+                    <span class="dot"></span>
+                    <div class="timeline-box-inner animate-right animated">
+                        <span class="arrow"></span>
+                        <div class="timeline-head">
+                            <div class="date">Depuis Avril 2015</div>
+                            <a href="http://www.dellemc.com">
+                                <img class="logo" src="assets/images/dellemc_logo.png" alt="Logo Dell EMC">
+                            </a>
+                            <h4>Ingénieur Avant-Vente Infrastructure Informatique - Recherche et Education</h4>
+                            <h3>DellEMC - Montpellier</h3>
+                        </div>
+                        <p>Worked as part of a multi-disciplinary team, carrying out ad-hoc tasks as requested by the IT Manager. Had a specific brief to ensure the websites build for customer’s precisely matched their requirements.developers and marketers.</p>
+                    </div>
+                </div>
+                <div class="timeline-box timeline-box-right">
+                    <span class="dot"></span>
+                    <div class="timeline-box-inner animate-left animated">
+                        <span class="arrow"></span>
+                        <div class="timeline-head">
+                            <div class="date">Avril 2011 à Avril 2015</div>
+                            <a href="http://www.dellemc.com">
+                                <img class="logo" src="assets/images/dellemc_logo.png" alt="Logo Dell EMC">
+                            </a>
+                            <h4>Ingénieur Commercial Infrastructure Informatique - Comptes privés</h4>
+                            <h3>DellEMC - Montpellier</h3>
+                        </div>
+                        <p>I was responsible for working on a range of projects, designing appealing websites and interacting on a daily basis with graphic designers, back-end developers and marketers.</p>
+                    </div>
+                </div>
+                <div class="timeline-box timeline-box-left" style="position: absolute;left: 0px;top: 331px;">
+                    <span class="dot"></span>
+                    <div class="timeline-box-inner animate-right animated">
+                        <span class="arrow"></span>
+                        <div class="timeline-head">
+                            <div class="date">2008 - 2011</div>
+                            <a class="img" href="#">
+                                <img src="http://rscardwp.px-lab.com/wp-content/uploads/2015/11/logo-bootstrap-1.png" alt="">
+                            </a>
+                            <h4>Systems Analyst / Web Developer</h4>
+                        </div>
+                        <p>Rebuilt and enhanced existing ASP B2C site with ASP.NET 2.0 Framework and tools. Technology consists of ASP.NET 2.0 (C#), IIS, Microsoft SQL Server 2005, Stored Procedures &amp; PayPal Instant Payment Notification.</p>
+                    </div>
+                </div>
+                <div class="timeline-box timeline-box-right" style="position: absolute; right: 0px; top: 375px;">
+                    <span class="dot"></span>
+                    <div class="timeline-box-inner animate-left animated">
+                        <span class="arrow"></span>
+                        <div class="timeline-head">
+                            <div class="date">2004 - 2008</div>
+                            <a class="img" href="#">
+                                <img src="http://rscardwp.px-lab.com/wp-content/uploads/2015/11/logo-jquery-1.png" alt="">
+                            </a>
+                            <h4>Webmaster / Web Developer</h4>
+                        </div>
+                        <p>Developed, managed, operated and promoted an Internet business.Handled customer support issues.Planned and managed business finances.</p>
+                    </div>
+                </div>
+                <div class="timeline-box timeline-box-left" style="position: absolute; left: 0px; top: 670px;">
+                    <span class="dot"></span>
+                    <div class="timeline-box-inner animate-right animated">
+                        <span class="arrow"></span>
+                        <div class="timeline-head">
+                            <div class="date">2003 - 2004</div>
+                            <a class="img" href="#">
+                                <img src="http://rscardwp.px-lab.com/wp-content/uploads/2015/11/logo-compass-1.png" alt="">
+                            </a>
+                            <h4>Intern</h4>
+                        </div>
+                        <p>This was beginning of my career. Developed, managed, operated and promoted an Internet business.Handled customer support issues.</p>
+                    </div>
+                </div>
+                <div class="timeline-box timeline-box-right" style="position: absolute; right: 0px; top: 667px;">
+                    <span class="dot"></span>
+                    <div class="timeline-box-inner animate-left animated">
+                        <span class="arrow"></span>
+                        <div class="timeline-head">
+                            <div class="date">2000 - 2003</div>
+                            <a class="img" href="#">
+                                <img src="http://rscardwp.px-lab.com/wp-content/uploads/2015/11/logo-teaspoon-1.png" alt="">
+                            </a>
+                            <h4>Taxi Driver</h4>
+                        </div>
+                        <p>Driving from point A to point B and if necessary to point C and sometimes even to point R and point S. I was known as experienced driver. Once my passenger who was a web developer told me about his job and I have made my decision at that moment to became a developer.</p>
+                    </div>
+                </div>
+            </div>
         </div>
+        <h3>Etudes &amp; Formations</h3>
+        <div id="studies" class="">
+        </div>
+        <!--END .timeline -->
     </div>
+    <!-- END timeline-container -->
+    </div>
+    <!-- End section education-timeline -->
+    </div>
+    <!-- END container #cv-->
     <hr class="featurette-divider">
-    <!-- END container -->
+    <!-- START #contact .container-fluid .parallax-contact -->
     <div id="contact" class="container-fluid parallax-contact">
         <div class="container contact">
             <h2>Envoyer un message</h2>
@@ -246,7 +357,9 @@
             </form>
         </div>
     </div>
+    <!-- END #contact .container-fluid .parallax-contact -->
     <hr class="featurette-divider">
+    <!-- START footer -->
     <footer>
         <div class="container">
             <div class="row">
@@ -265,14 +378,15 @@
                 <div class="col-md-4">
                     <blockquote>
                         <p>Le remède à l'ennui, c'est la curiosité. La curiosité elle, est sans remède.</p>
-                        <footer>Someone famous in
+                        <div>Someone famous in
                             <cite title="Source Title">somwhere</cite>
-                        </footer>
+                        </div>
                     </blockquote>
                 </div>
             </div>
         </div>
     </footer>
+    <!-- END footer -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery-3.1.1.min.js"></script>
     <!-- Include Parallax plugin -->
